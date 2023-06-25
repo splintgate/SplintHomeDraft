@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header moveToSvc={moveToSvc} moveToCnct={moveToCnct}/>
-        <Content svc={svc}/>
+        <Content svc={svc} moveToCnct={moveToCnct}/>
         <Footer cnct={cnct} />
       </header>
     </div>
