@@ -4,7 +4,13 @@ import '../../../App.css'
 function Service() {
     return (
         <>
-            <span className="service_item flex align-items-center" style={{ color: '#7B53AD', fontSize: '50px' }}>WE SPEACILIZE
+            <span className="service_item flex align-items-center" style={{  fontSize: '50px', backgroundColor: '#7857ff',
+  backgroundImage: 'linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%)' , backgroundsize:'100%' , backgroundRepeat: 'repeat',
+  backgroundRepeatX: 'repeat',
+  backgroundRepeatY: 'repeat',
+  WebkitBackgroundClip: 'text',
+  WebkitTextFillColor: 'transparent',
+  MozBackgroundClip: 'text'}}>WE SPEACILIZE
                 IN</span>
             <div>
                 <span className="service_item flex align-items-center" data-service-id="1"
