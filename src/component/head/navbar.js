@@ -5,7 +5,7 @@ import tachyons from 'tachyons';
 function Navbar({ moveToSvc, moveToCnct }) {
   return (
     // <div >
-      <nav className=''>
+      <nav className='fill'>
         <ul className="flex flex-column">
           <div className='self-end flex justify-around pa3'>
             <li className="nav-item pa2 ma3 pa3 tc w4" onClick={moveToSvc}>Services</li>

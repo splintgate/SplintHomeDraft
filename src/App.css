@@ -132,6 +132,58 @@ a:visited {
     width: 100%;
 }
 
+
+
+
+/* CSS for stroke or fill */
+.stroke ul li,
+.fill ul li {
+  position: relative;
+}
+
+.stroke ul li:after,
+.fill ul li:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+.stroke ul li:hover:after {
+  width: 100%;
+}
+
+.fill ul li {
+  transition: all 2s;
+}
+
+.fill ul li:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+
+.fill ul li:hover {
+  color: #fff;
+  z-index: 1;
+}
+
+.fill ul li:hover:after {
+  z-index: -10;
+  animation: fill 500ms forwards;
+  -webkit-animation: fill 500ms forwards;
+  -moz-animation: fill 500ms forwards;
+  opacity: 1;
+}
+
+
 .nav-item {
     list-style: none;
     font-weight: 500;
@@ -605,3 +657,90 @@ html.has-scroll-dragging {
 section{
     padding: 7%;
 }
+
+/* CSS circle*/
+.circle ul li {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .circle ul li::after {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '.';
+    color: transparent;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background: transparent;
+  }
+  
+  .circle ul li:hover::after {
+    animation: circle 1.5s ease-in forwards;
+  }
+  
+  @keyframes circle {
+    0% {
+      transform: scale(1);
+      background: transparent;
+    }
+    50% {
+      background: #aaa;
+    }
+    100% {
+      transform: scale(100);
+      background: #aaa;
+    }
+  }
+  
+  /* Additional Styles */
+  .flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .pa2 {
+    padding: 0.5rem;
+  }
+  
+  .ma3 {
+    margin: 1rem;
+  }
+  
+  .pa3 {
+    padding: 1rem;
+  }
+  
+  .tc {
+    text-align: center;
+  }
+  
+  .w4 {
+    width: 4rem;
+  }
+  
+  /* Keyframes */
+@keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: #333;
+    }
+  }
