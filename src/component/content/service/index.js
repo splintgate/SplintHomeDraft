@@ -61,12 +61,12 @@ function Service() {
                     </svg></span>
             </div>
 
-            <div className="background_images flex justify-content-center align-items-center">
+            {/* <div className="background_images flex justify-content-center align-items-center">
                 <img src="./images/services-app-development.png" data-service-id="4" className="service_background_images" />
                 <img src="./images/branding-service.png" data-service-id="1" className="service_background_images" />
                 <img src="./images/web-development-service.png" data-service-id="3" className="service_background_images" />
                 <img src="./images/ecommerrce-experiences.png" data-service-id="5" className="service_background_images" />
-            </div>
+            </div> */}
         </>
     )
 }

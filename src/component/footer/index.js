@@ -25,16 +25,16 @@ function Footer({ cnct }) {
                         <div className="contactUs w-100 ">
                             <form method="post" action="" className='ml5 w-90' >
                                 <label for="name">Name :</label>
-                                <input type="text" id="name" name="name" required /><br />
+                                <input type="text" id="name" name="name" required style={{backgroundColor:'#2b2b2c'}} /><br />
 
                                 <label for="email">Email :</label>
-                                <input type="email" id="email" name="email" required /><br />
+                                <input type="email" id="email" name="email" required style={{backgroundColor:'#2b2b2c'}}/><br />
 
                                 <label for="mobile">Mobile No. :</label>
-                                <input type="text" id="mobile" name="mobile" required /><br />
+                                <input type="text" id="mobile" name="mobile" style={{backgroundColor:'#2b2b2c'}}/><br />
 
                                 <label for="message">Message :</label>
-                                <textarea id="message" name="message" rows="5" required></textarea><br />
+                                <textarea id="message" name="message" rows="5" required style={{backgroundColor:'#2b2b2c'}}></textarea><br />
 
                                 <input type="submit" value="Submit" />
                             </form>
