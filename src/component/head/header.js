@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 import Navbar from './navbar'
 
-function Header({moveToSvc, moveToCnct}) {
+function Header({moveToSvc, moveToCnct,moveToBlog}) {
   return (
     <div id="nav_bar" className="flex nav_bar container w-100">
       <span className="logo_container flex align-items-center justify-content-center">
@@ -20,7 +20,7 @@ function Header({moveToSvc, moveToCnct}) {
         </svg>
         <span className="text_logo">Splintgate</span>
         {/* <div className='flex'> */}
-        <Navbar moveToSvc={moveToSvc} moveToCnct={moveToCnct}/>
+        <Navbar moveToSvc={moveToSvc} moveToCnct={moveToCnct} moveToBlog={moveToBlog}/>
         {/* </div> */}
       </span>
       
