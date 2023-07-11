@@ -59,13 +59,31 @@ function Service() {
                         <path d="M28 11L36.75 19.75L28 28.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
                             stroke-linejoin="round" />
                     </svg></span>
+                <span className="service_item" data-service-id="6"
+                    data-background=" linear-gradient(110.47deg, #876016 -6.79%, rgba(187, 127, 14, 0.8) 109.82%)">IT Consultancy & HR Staffing
+                        <svg width="50" height="50" viewBox="0 0 40 40" fill="none" className="arrow_icon"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 19.75L36 19.75" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M28 11L36.75 19.75L28 28.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg></span>
+                <span className="service_item" data-service-id="7"
+                    data-background=" linear-gradient(110.47deg, #876016 -6.79%, rgba(187, 127, 14, 0.8) 109.82%)">Corporate Trainings
+                        <svg width="50" height="50" viewBox="0 0 40 40" fill="none" className="arrow_icon"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 19.75L36 19.75" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M28 11L36.75 19.75L28 28.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg></span>    
             </div>
 
             {/* <div className="background_images flex justify-content-center align-items-center">
-                <img src="./images/services-app-development.png" data-service-id="4" className="service_background_images" />
-                <img src="./images/branding-service.png" data-service-id="1" className="service_background_images" />
-                <img src="./images/web-development-service.png" data-service-id="3" className="service_background_images" />
-                <img src="./images/ecommerrce-experiences.png" data-service-id="5" className="service_background_images" />
+                <img src="../../assets/blog05.png" data-service-id="4" className="service_background_images" />
+                <img src="../../assets/blog05.png" data-service-id="1" className="service_background_images" />
+                <img src="../../assets/blog05.png" data-service-id="3" className="service_background_images" />
+                <img src="../../assets/blog05.png" data-service-id="5" className="service_background_images" />
             </div> */}
         </>
     )
