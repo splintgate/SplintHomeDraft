@@ -7,6 +7,17 @@
   --grey800:#1F1F1F;
   --plain-black:#000000;
   --bricks-transition: all 0.2s;
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+
   }
 *{
     margin: 0;
@@ -750,25 +761,40 @@ section{
       background: #333;
     }
   }
-
-  @charset "UTF-8";:root {
-    --bricks-transition: all 0.2s;
-    --bricks-color-primary: #ffd64f;
-    --bricks-color-secondary: #fc5778;
-    --bricks-text-dark: #212121;
-    --bricks-text-medium: #616161;
-    --bricks-text-light: #9e9e9e;
-    --bricks-text-info: #00b0f4;
-    --bricks-text-success: #11b76b;
-    --bricks-text-warning: #ffa100;
-    --bricks-text-danger: #fa4362;
-    --bricks-bg-info: #e5f3ff;
-    --bricks-bg-success: #e6f6ed;
-    --bricks-bg-warning: #fff2d7;
-    --bricks-bg-danger: #ffe6ec;
-    --bricks-bg-dark: #263238;
-    --bricks-bg-light: #f5f6f7;
-    --bricks-border-color: #dddedf;
-    --bricks-tooltip-bg: #23282d;
-    --bricks-tooltip-text: #eaecef
-}
+  .gradient__bg {
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  }
+  
+  .gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .intro-sec {
+    position: relative;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 40%;
+  }
+  

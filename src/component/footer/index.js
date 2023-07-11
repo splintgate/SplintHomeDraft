@@ -18,7 +18,6 @@ function Footer({ cnct }) {
                                 <address>
                                     Tirupur , Tamilnadu - 641 604</address>
                             </span>
-                            <span><a href="">Privacy Policy</a></span>
                         </div>
                     </div>
                     <div className=" flex w-70 flex-direction-column self-end">
@@ -38,16 +37,6 @@ function Footer({ cnct }) {
 
                                 <input type="submit" value="Submit" />
                             </form>
-                        </div>
-                        <div className="social_media_wrapper ml7 mt6 flex flex-direction-column align-items-center">
-                            <span>
-                                <a href="" className="social_media_link">Facebook</a>
-                                <a href="" className="social_media_link">Dribble</a>
-                            </span>
-                            <span>
-                                <a href="" className="social_media_link">Instagram</a>
-                                <a href="" className="social_media_link">Linkden</a>
-                            </span>
                         </div>
                     </div>
 
