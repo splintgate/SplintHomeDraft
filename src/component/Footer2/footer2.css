@@ -71,15 +71,18 @@
     width: 118px;
     height: 50px;
 
-    margin-bottom: 1rem;
-    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
 }
 
 .gpt3__footer-links_logo p {
     font-family: var(--font-family);
-    font-size: 12px;
+    font-size: 15px;
     line-height: 15px;
     color: #fff;
+}
+.gpt3__footer-links_logo span{
+    margin-left: 1.6rem;
 }
 
 .gpt3__footer-links_div {
@@ -87,14 +90,31 @@
     justify-content: flex-start;
     flex-direction: column;
 }
-
-.gpt3__footer-links_div h4 {
-    font-size: 17px;
+.contact{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.contact h4{
+    font-size: 19px;
     line-height: 17px;
     font-family: var(--font-family);
     color: #fff;
 
     margin-bottom: 0.9rem;
+    margin-top: 0.3rem ;
+
+}
+
+.gpt3__footer-links_div h4 {
+    font-size: 19px;
+    line-height: 17px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin-bottom: 0.9rem;
+    margin-top: 0.3rem ;
+    
 }
 
 .gpt3__footer-links_div p {
@@ -105,6 +125,25 @@
 
     margin: 0.5rem 0;
     cursor: pointer;
+}
+.contact p{
+    font-size: 13px;
+    line-height: 15px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin: 0.5rem 0;
+
+
+}
+
+.gpt3__footer-links_div p:hover{
+    display: block;
+    background: linear-gradient(93.77deg, #edca85 4.1%, #f093b0 32.16%, #a162e8 66.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
 }
 
 .gpt3__footer-copyright {
@@ -149,3 +188,29 @@
         line-height: 38px;
     }
 }
+
+  
+.social-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px; /* Add this line to specify the gap between icons */
+    
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
