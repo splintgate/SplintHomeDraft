@@ -15,7 +15,7 @@ function Content({svc,moveToCnct}) {
 
         <section className="intro-sec">
           <div className="intro">
-            <span>We Provide</span>
+            <span>We provide affordable</span>
             <span>Websites, Apps and Digital Solutions.</span>
             <span><br/>Accelerate your development process and product building journey with our experienced digital experts</span>
             {/* <div><button type='button'className="ibtn br3 mt5 link f4 h3 w-20 bg-mid-gray" onClick={moveToCnct}>Let's Connect &#8594; </button></div> */}

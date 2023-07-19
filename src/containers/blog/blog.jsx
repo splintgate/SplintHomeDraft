@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Article from '../../component/article/Article';
 import { blog01, blog02, blog03, blog04, blog05 } from '../blog/imports';
 import '../blog/blog.css';
-
 const Blog = ({blog}) => (
-
-  <div className="gpt3__blog section__padding" id="blog">
+ 
+  <div className="gpt3__blog section__padding" id="blog" ref={blog}>
     <div className="gpt3__blog-heading">
       <h1 className="gradient__text">A lot is happening, <br /> We are blogging about it.</h1>
     </div>
