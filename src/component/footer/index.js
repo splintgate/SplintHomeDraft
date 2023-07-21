@@ -22,7 +22,7 @@ function Footer({ cnct }) {
                     </div>
                     <div className=" flex w-70 flex-direction-column self-end">
                         <div className="contactUs w-100 ">
-                            <form method="post" action="" className='ml5 w-90' >
+                            <form method="POST" action="https://formspree.io/f/xrgwbakl" className='ml5 w-90' >
                                 <label for="name">Name :</label>
                                 <input type="text" id="name" name="name" required style={{backgroundColor:'#2b2b2c'}} /><br />
 
