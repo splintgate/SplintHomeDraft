@@ -12,8 +12,8 @@ function Footer({ cnct }) {
                             <span>Tell us about it</span>
                         </div>
                         <div className="company_details flex justify-content-space-between flex-direction-column">
-                            <span><a href="mailto:info@splintgate.com">splintgate01@gmail.com</a></span>
-                            <span><a href="mailto:info@splintgate.com">+91 9080052687</a></span>
+                            <span><a href="mailto:splintgate01@gmail.com">splintgate01@gmail.com</a></span>
+                            <span><a href="tel:+919080052687">+91 9080052687</a></span>
                             <span>
                                 <address>
                                     Tirupur , Tamilnadu - 641 604</address>
@@ -24,13 +24,13 @@ function Footer({ cnct }) {
                         <div className="contactUs w-100 ">
                             <form method="POST" action="https://formspree.io/f/xrgwbakl" className='ml5 w-90' >
                                 <label for="name">Name :</label>
-                                <input type="text" id="name" name="name" required style={{backgroundColor:'#2b2b2c'}} /><br />
+                                <input type="text" id="name" name="name" required style={{backgroundColor:'#2b2b2c'}} onClick={{backgroundColor:'white'}}/><br />
 
                                 <label for="email">Email :</label>
                                 <input type="email" id="email" name="email" required style={{backgroundColor:'#2b2b2c'}}/><br />
 
                                 <label for="mobile">Mobile No. :</label>
-                                <input type="text" id="mobile" name="mobile" style={{backgroundColor:'#2b2b2c'}}/><br />
+                                <input type="text" id="mobile" name="mobile" style={{backgroundColor:'#2b2b2c',color : 'white'}}/><br />
 
                                 <label for="message">Message :</label>
                                 <textarea id="message" name="message" rows="5" required style={{backgroundColor:'#2b2b2c'}}></textarea><br />
