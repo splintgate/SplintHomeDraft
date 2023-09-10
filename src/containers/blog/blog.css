@@ -62,6 +62,11 @@
 }
 
 @media screen and (max-width: 990px) {
+    .section__padding
+    {
+        padding: 3rem 3rem;
+    }
+
     .gpt3__blog-container {
         flex-direction: column-reverse;
     }
