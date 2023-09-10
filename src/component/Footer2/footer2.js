@@ -58,7 +58,7 @@ const Footer2 = () => (
         <h4>Get in touch</h4>
         <p>Tirupur, Tamilnadu - 641 604</p>
         <p>+91 9080052687</p>
-        <p>splintgate01@gmail.com</p>
+        <p>info@splintgate.com</p>
       </div>
     </div>
 
